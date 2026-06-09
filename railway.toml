@@ -1,0 +1,7 @@
+# railway.toml — Déploiement sur Railway.app
+[build]
+builder = "dockerfile"
+
+[deploy]
+startCommand = "python bot.py"
+restartPolicyType = "always"
